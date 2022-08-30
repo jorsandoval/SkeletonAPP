@@ -25,3 +25,17 @@
 #container a {
   text-decoration: none;
 }
+
+.cuadrado {
+  font-size: 10rem;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 100px solid #f0ad4e;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+}
+
+.pac-man { width:0; height:0; border-right: 50px solid transparent; border-top: 50px solid #5cb85c; border-left: 50px solid #5cb85c; border-bottom: 50px solid #5cb85c; -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%; }
