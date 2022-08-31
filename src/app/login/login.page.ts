@@ -10,6 +10,10 @@ export class LoginPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
+  user = {
+    usuario:"",
+  }
 }

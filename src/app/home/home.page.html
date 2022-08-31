@@ -1,28 +1,40 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title id="titulo">SkeletonAPP</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
 
-  <div id="container">
-    <strong>Pagina de prueba para animaciones</strong>
-    <p>Ignore esto profe<a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="head">
+    <h1>Bienvenido!</h1>
+    <br>
+    <p>Usuario : </p>
+  </div>
+  <br>
+  <div id="login">
+    <h2>Información Adicional</h2>
+
+    <ion-item>
+      <ion-label position="floating">Usuario</ion-label>
+      <ion-input type="text" maxlength="8" minlength="3"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" >Password</ion-label>
+      <ion-input type="password" maxlength="4" minlength="4"></ion-input>
+    </ion-item>
+
+    <section>
+      <br>
+      <ion-button size="small" expand="block" href="../home/home.page.html">Ingresar</ion-button>
+    </section>
+
+    <section class="registro">
+      <br>
+      <a href="#" class="underline">Crea tu cuenta gratis</a>
+    </section>
+
   </div>
 
-  <div class="pac-man"></div>
-  <h1>{{contador}}</h1>
-  <div class="square"></div>
 </ion-content>
-<ion-button id="play" color="primary">Iniciar</ion-button>
-<ion-button id="pause" color="warning">Pausar</ion-button>
-<ion-button id="stop" color="danger">Detener</ion-button>
-
